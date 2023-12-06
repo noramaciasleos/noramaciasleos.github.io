@@ -59,27 +59,31 @@
         <h3>Join our Tech Talk</h3>
 
 
-        <fieldset>
-          <legend id="features-label">Gran Canyon Features</legend>
-         <div role="radiogroup" aria-labelledby="features-label">
-        <label role="radio" aria-checked="false">
-          <input type="radio" name="feature" value="scenery" checked>
-          Scenery
-        </label><br>
-        <label role="radio" aria-checked="false">
-      <input type="radio" name="feature" value="hiking_trails">
-          Hiking Trails
-        </label><br>
-    <label role="radio" aria-checked="false">
-      <input type="radio" name="feature" value="wildlife">
+       <fieldset>
+  <legend id="features-label">Gran Canyon Features</legend>
+
+  <div role="radiogroup" aria-labelledby="features-label">
+    <label>
+      <input type="radio" name="feature" value="scenery" checked aria-checked="true">
+      Scenery
+    </label><br>
+
+    <label>
+      <input type="radio" name="feature" value="hiking_trails" aria-checked="false">
+      Hiking Trails
+    </label><br>
+
+    <label>
+      <input type="radio" name="feature" value="wildlife" aria-checked="false">
       Wildlife
     </label><br>
-    <label role="radio" aria-checked="false">
-    <input type="radio" name="feature" value="history">
+
+    <label>
+      <input type="radio" name="feature" value="history" aria-checked="false">
       History
     </label><br>
-      </div>
-    </fieldset>
+  </div>
+</fieldset>
         
             <form method="get">
             <input type="email" name="email">
